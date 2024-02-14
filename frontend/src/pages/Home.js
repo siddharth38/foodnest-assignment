@@ -7,6 +7,7 @@ const Home = () => {
     localStorage.removeItem('rzp_device_id');
     localStorage.removeItem('rzp_checkout_anon_id');
     localStorage.removeItem('cartItems');
+    localStorage.removeItem('User');
   }, [])
   return (
     <>
